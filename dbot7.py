@@ -7,7 +7,7 @@ import shutil
 import openpyxl
 
 
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("####")
 def get_website_links_from_workbook(workbook_path):
     workbook = openpyxl.load_workbook(workbook_path, data_only=True)
     if "Qualitative Review" not in workbook.sheetnames:
